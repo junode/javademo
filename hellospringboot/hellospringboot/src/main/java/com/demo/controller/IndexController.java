@@ -1,6 +1,6 @@
 package com.demo.controller;
 
-import com.demo.pojo.User;
+import com.demo.pojo.UserDetails;
 import com.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,8 +20,8 @@ public class IndexController {
     @Autowired
     UserService userService;
     @GetMapping("/show")
-    public List<User> getUser(int age){
-        return userService.getUser(age);
+    public UserDetails getUserByUid(int uid){
+        return userService.getUserDetailsByUid(uid);
     }
 
     @RequestMapping("/index")

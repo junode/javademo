@@ -1,7 +1,7 @@
 package com.demo.service;
 
-import com.demo.dao.UserMapper;
-import com.demo.pojo.User;
+import com.demo.dao.UserDetailsMapper;
+import com.demo.pojo.UserDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,10 +13,9 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements UserService{
     @Autowired
-    UserMapper userMapper;
+    UserDetailsMapper userDetailsMapper;
 
-    @Override
-    public List<User> getUser(int age){
-        return userMapper.getUser(age);
+    public UserDetails getUserDetailsByUid(int uid){
+        return userDetailsMapper.getUserDetailsByUid(uid);
     }
 }
