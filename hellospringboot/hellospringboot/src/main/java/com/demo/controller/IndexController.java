@@ -3,6 +3,7 @@ package com.demo.controller;
 import com.demo.pojo.UserDetails;
 import com.demo.pojo.UserPosition;
 import com.demo.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +17,7 @@ import java.util.Map;
  * Created by toutou on 2018/10/15.
  */
 @RestController
+@Slf4j
 public class IndexController {
 
     @Autowired
@@ -36,6 +38,8 @@ public class IndexController {
     public List<UserPosition> getVicinity(double radii, double lon, double lat){
         double r = 6371;//地球半径千米
         double dis = radii;
+        log.info("半径为info:"+dis);
+        log.error("半径为error:"+dis);
         double dlng =  2*Math.asin(Math.sin(dis/(2*r))/Math.cos(lat*Math.PI/180));
         dlng = dlng*180/Math.PI;//角度转为弧度
         double dlat = dis/r;
