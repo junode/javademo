@@ -23,6 +23,11 @@
     from userdetails
     where uid = #{uid,jdbcType=INTEGER}
   </select>
+  <select id="getUserDetails" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from userdetails
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from userdetails
     where id = #{id,jdbcType=INTEGER}

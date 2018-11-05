@@ -12,6 +12,7 @@ import java.util.List;
  */
 public interface UserService {
     UserDetails getUserDetailsByUid(int uid);
+    List<UserDetails> getUserDetails();
     List<UserPosition> getVicinity(BigDecimal minlng, BigDecimal maxlng, BigDecimal minlat, BigDecimal maxlat);
     List<UserPosition> getvicinitysort(BigDecimal longitude,BigDecimal latitude);
 }

@@ -4,6 +4,8 @@ import com.demo.pojo.UserDetails;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Mapper
 @Repository
 public interface UserDetailsMapper {
@@ -16,6 +18,8 @@ public interface UserDetailsMapper {
     UserDetails selectByPrimaryKey(Integer id);
 
     UserDetails getUserDetailsByUid(Integer uid);
+
+    List<UserDetails> getUserDetails();
 
     int updateByPrimaryKeySelective(UserDetails record);
 

@@ -25,6 +25,10 @@ public class UserServiceImpl implements UserService{
         return userDetailsMapper.getUserDetailsByUid(uid);
     }
 
+    public List<UserDetails> getUserDetails(){
+        return userDetailsMapper.getUserDetails();
+    }
+
     public List<UserPosition> getVicinity(BigDecimal minlng, BigDecimal maxlng, BigDecimal minlat, BigDecimal maxlat){return userPositionMapper.getvicinity(minlng, maxlng, minlat, maxlat);}
 
     public List<UserPosition> getvicinitysort(BigDecimal longitude,BigDecimal latitude){return userPositionMapper.getvicinitysort(longitude, latitude);}

@@ -24,6 +24,7 @@ public class IndexController {
     UserService userService;
     @GetMapping("/show")
     public UserDetails getUserByUid(int uid){
+
         return userService.getUserDetailsByUid(uid);
     }
 
