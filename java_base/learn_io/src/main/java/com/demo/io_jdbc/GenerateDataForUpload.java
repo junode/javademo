@@ -1,6 +1,6 @@
 package com.demo.io_jdbc;
 
-import com.demo.io_jdbc.entity.MysqlType;
+import com.demo.io_jdbc.entity.SqlType;
 import com.demo.io_jdbc.entity.SqlData;
 import org.junit.Test;
 
@@ -11,8 +11,6 @@ import java.io.FileWriter;
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 /**
  * @Auther: zwy
@@ -285,7 +283,7 @@ public class GenerateDataForUpload {
 
     public Object generateValue(String type, Integer len) {
         Object object = null;
-        switch (MysqlType.valueOf(type)) {
+        switch (SqlType.valueOf(type)) {
             case VARCHAR:
 //                System.out.println("here is to generate string value");
                 object = generateString(len);
@@ -410,7 +408,7 @@ public class GenerateDataForUpload {
     public void testEnum() {
         String varchar = "VARCHAR";
 
-        switch (MysqlType.valueOf(varchar)) {
+        switch (SqlType.valueOf(varchar)) {
             case VARCHAR:
                 System.out.println("here is to generate string value");
                 break;
