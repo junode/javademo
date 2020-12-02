@@ -30,14 +30,11 @@ public class CreateExcel2Sql {
     //使用表空间
     private static String TABLE_SPACE = "";
     //excel文件路径
-    private static String FILE_PATH = "E:/kaya/财富管理平台7.0/";
+    private static String FILE_PATH = "E:/finance/research/";
 
-    	private static String FILE_NAME = "5支付中心库.xlsx";
-	private static String SYSTEMID = "ZF";
-    //excel文件名
-//    private static String FILE_NAME = "2客户中心库.xlsx";
-    //导出文件名为 create_[SYSTEMID].sql
-//    private static String SYSTEMID = "KH";
+    	private static String FILE_NAME = "report.xlsx";
+	private static String SYSTEMID = "fina";
+
 
 
     private static String YES_OR_NO_YES = "是";
