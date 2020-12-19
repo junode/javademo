@@ -591,17 +591,3 @@ git fetch
 git status
 
 git pull
-
-
-
-
-
-
-
-
-
-
-<pre>
-    hellow world
-you are wellcome
-</pre>

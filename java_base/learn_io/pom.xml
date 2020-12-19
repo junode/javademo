@@ -29,6 +29,12 @@
             <artifactId>rdf-file-core</artifactId>
             <version>2.2.2</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.8</version>
+        </dependency>
     </dependencies>
 
 </project>

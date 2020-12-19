@@ -6,7 +6,7 @@ package com.demo.io_jdbc.entity;
  * @Description: com.demo.jdbc.entity
  * @version:
  */
-public enum MysqlType {
-    VARCHAR, DATE, DOUBLE, INT
+public enum SqlType {
+    VARCHAR, DATE, DOUBLE, INT,CHAR
 
 }

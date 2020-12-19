@@ -6,6 +6,9 @@
     <file type="web" url="file://$PROJECT_DIR$/java_uitl" />
     <file type="web" url="file://$PROJECT_DIR$/util_skills" />
   </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
