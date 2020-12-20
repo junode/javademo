@@ -12,13 +12,14 @@ spring:
 
 eureka:
   client:
-    # 服务注册地址
+#    # 服务注册地址
     service-url:
-      defaultZone: http://192.168.80.1:5001/eureka/,http://192.168.80.1:5002/eureka/
-#    # 服务自身就是治理中心，所以这里设置为false，取消注册
-#    register-with-eureka: false
-#    # 取消服务获取，至于服务获取，本章后续会讨论
-#    fetch-registry: false
+      defaultZone: http://192.168.80.1:5001/eureka/
+#  ,http://192.168.80.1:5002/eureka/
+    # 服务自身就是治理中心，所以这里设置为false，取消注册
+    register-with-eureka: false
+    # 取消服务获取，至于服务获取，本章后续会讨论
+    fetch-registry: false
     # 服务注册域地址
   #    service-url:
   #      defaultZone: http://192.168.1.100:5002/eureka/
