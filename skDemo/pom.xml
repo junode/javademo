@@ -20,6 +20,7 @@
       <module>user</module>
     <module>fund</module>
     <module>product</module>
+      <module>sk-common</module>
   </modules>
 
   <name>sk-demo</name>

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: fund
+  profiles:
+    active: peer2
+eureka:
+  client:
+    service-url:
+      # 请求URL指向Eureka服务治理中心
+      defaultZone: http://localhost:5001/eureka/
+  # instance.hostname再客户端配置了没任何作用吧？应该是给 注册服务实例设置名称
+  instance:
+    hostname: 192.168.80.1
