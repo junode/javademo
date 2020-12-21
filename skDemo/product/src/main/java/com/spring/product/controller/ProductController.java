@@ -23,7 +23,7 @@ public class ProductController {
     // 依赖注入RestTemplate
     @Autowired
     private RestTemplate template;
-    // http://192.168.80.1:3001/product/purchase/1/1/1000
+    // http://localhost:3001/product/purchase/1/1/1000
     @GetMapping("/purchase/{userId}/{productId}/{amount}")
     public ResultMessage purchaseProduct(
             @PathVariable("userId") Long userId,
