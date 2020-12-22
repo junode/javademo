@@ -1,4 +1,4 @@
-package spring.cloud.learn.annotation;
+package spring.cloud.learn.annotation.document;
 
 ///**
 // * @description: 练习@Document注解

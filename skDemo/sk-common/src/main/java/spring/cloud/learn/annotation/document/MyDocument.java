@@ -1,4 +1,4 @@
-package spring.cloud.learn.annotation;
+package spring.cloud.learn.annotation.document;
 
 import java.lang.annotation.Documented;
 
