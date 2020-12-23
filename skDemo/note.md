@@ -17,6 +17,8 @@ eureka.instance.hostname 注册服务实例设置名称
 
 ### 1.2.1 关于注解的认识：https://www.javatpoint.com/java-annotation
 
+&ensp;&ensp;www.javatpoint.com网站对于注解的解释说明简单明了易懂。建议直接看该链接的说明。
+
 注解是表示元数据的标签，可以用于修饰类、接口、方法或字段，为他们添加元数据信息，可以作为他们的额外信息用于java编译和jvm使用。
 
 #### 1.2.1.1 java.lang.annotation.Document的理解
@@ -29,8 +31,6 @@ Javadoc不支持的文档属性，并在开发中应用。(就是@Document注解
 
 #### 1.2.1.2 java.lang.annotation.Inherited的理解：
 &ensp;&ensp;网上解释：目的：注解自动继承父类，直至Object为止。注意：从超类继承，而不是接口，即使实现接口，也不继承。
-
-demo 参考：https://riptutorial.com/java/example/10228/inherited-annotations
 
 #### 1.2.1.3 java.lang.annotaion.SuppressWarnings的理解：
 
