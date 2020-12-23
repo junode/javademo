@@ -11,7 +11,7 @@ https://blog.csdn.net/sunhuiliang85/article/details/76222517
 eureka.client.service-url.defaultZone : http://localhost:5001/eureka
 表示向 http://localhost:5001/eureka 注册服务。
 
-eureka.instance.hostname在客户端配置了没任何作用吧？应该是给 注册服务实例设置名称
+eureka.instance.hostname 注册服务实例设置名称
 
 ## 1.2 eureka 源码初步认识
 
@@ -30,6 +30,7 @@ Javadoc不支持的文档属性，并在开发中应用。(就是@Document注解
 #### 1.2.1.2 java.lang.annotation.Inherited的理解：
 &ensp;&ensp;网上解释：目的：注解自动继承父类，直至Object为止。注意：从超类继承，而不是接口，即使实现接口，也不继承。
 
+demo 参考：https://riptutorial.com/java/example/10228/inherited-annotations
 
 #### 1.2.1.3 java.lang.annotaion.SuppressWarnings的理解：
 

@@ -5,11 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * Hello world!
- *
- */
+* @Description 用户微服务
+* @Author junode
+* @Date 2020/12/23 17:33
+**/
 @SpringBootApplication
-// 在新版本中无需手动引入该注解
 @EnableDiscoveryClient
 public class UserApplication
 {

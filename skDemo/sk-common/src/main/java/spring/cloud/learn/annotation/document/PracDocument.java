@@ -9,6 +9,7 @@ package spring.cloud.learn.annotation.document;
 /**
  * 这是用来测试生成java docx 文章的。
  * 关于idea中生成java doc 菜单所在 ：Tools | Generate JavaDoc...
+ * 生成的文件信息在resources目录下。
  */
 @MyDocument
 public class PracDocument {

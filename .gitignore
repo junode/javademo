@@ -98,3 +98,8 @@ local.properties
 *.iml
 #maven ignore
 target/
+
+*.properties
+*.jar
+*.cmd
+mvnw/

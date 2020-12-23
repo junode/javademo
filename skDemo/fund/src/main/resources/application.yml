@@ -8,6 +8,6 @@ eureka:
     service-url:
       # 请求URL指向Eureka服务治理中心
       defaultZone: http://localhost:5001/eureka/,http://localhost:5002/eureka/
-  # instance.hostname再客户端配置了没任何作用吧？应该是给 注册服务实例设置名称
+  # instance.hostname给 注册服务实例设置名称
   instance:
     hostname: localhost

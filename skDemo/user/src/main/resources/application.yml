@@ -3,8 +3,8 @@ eureka:
   client:
     service-url:
       defaultZone : http://localhost:5001/eureka,http://localhost:5002/eureka/
-#  instance:
-#    hostname: localhost
+  instance:
+    hostname: localhost
 # spring应用名称（微服务名称）
 spring:
   application:
