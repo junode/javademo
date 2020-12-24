@@ -103,3 +103,4 @@ target/
 *.jar
 *.cmd
 mvnw/
+lib/
