@@ -5,7 +5,11 @@ spring:
   profiles:
     # 当配置为“peer1”时选择application-peer1.yml作为配置文件
     # 当配置为“peer2”时选择application-peer2.yml作为配置文件
+<<<<<<< HEAD
     active: peer1
+=======
+    active: peer2
+>>>>>>> ce45c9b3713495949ba406e619e7db16886d0e69
 
 #server:
 #  port: 5001 #修改内嵌Tomcat端口为5001

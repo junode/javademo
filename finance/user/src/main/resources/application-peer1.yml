@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 微服务端口
 server:
   port: 6001
@@ -6,4 +7,14 @@ eureka:
   instance:
     metadata-map:
       #  0-代表正常发布，1-代表灰色发布
+=======
+# 微服务端口
+server:
+  port: 6001
+
+eureka:
+  instance:
+    metadata-map:
+      #  0-代表正常发布，1-代表灰色发布
+>>>>>>> ce45c9b3713495949ba406e619e7db16886d0e69
       gray-release: 0

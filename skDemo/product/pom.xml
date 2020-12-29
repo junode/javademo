@@ -24,10 +24,13 @@
       <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
     </dependency>
     <dependency>
+<<<<<<< HEAD
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
     </dependency>
     <dependency>
+=======
+>>>>>>> ce45c9b3713495949ba406e619e7db16886d0e69
       <groupId>spring.cloud</groupId>
       <artifactId>sk-common</artifactId>
       <version>1.0-SNAPSHOT</version>

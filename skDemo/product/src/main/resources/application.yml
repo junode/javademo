@@ -9,6 +9,7 @@ eureka:
       defaultZone: http://localhost:5001/eureka/,http://localhost:5002/eureka/
   instance:
     hostname: localhost
+<<<<<<< HEAD
     # 请求URL指向Eureka服务治理中心
 
 FUND: # 代表只对资金微服务执行这样的配置
@@ -39,3 +40,6 @@ ribbon:
     enabled: true
     # 即可加载的服务ID
     clients: user,product,fund
+=======
+    # 请求URL指向Eureka服务治理中心
+>>>>>>> ce45c9b3713495949ba406e619e7db16886d0e69

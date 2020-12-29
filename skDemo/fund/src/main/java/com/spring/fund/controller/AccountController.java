@@ -16,7 +16,10 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 @RequestMapping("/fund")
 public class AccountController {
+<<<<<<< HEAD
 
+=======
+>>>>>>> ce45c9b3713495949ba406e619e7db16886d0e69
     // 账户资金扣减
     @PostMapping("/account/balance/{userId}/{amount}")
     public ResultMessage deductingBalance(@PathVariable("userId") Long userId,
