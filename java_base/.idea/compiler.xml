@@ -14,6 +14,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="FinancialReport" target="1.8" />
+      <module name="java_base" target="1.8" />
+      <module name="java_git" target="1.8" />
+      <module name="java_uitl" target="1.8" />
+      <module name="learn_io" target="1.8" />
       <module name="util_skills" target="1.8" />
     </bytecodeTargetLevel>
   </component>
