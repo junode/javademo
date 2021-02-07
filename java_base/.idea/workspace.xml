@@ -28,41 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f1521c7-f784-4194-9197-bb6e23ed9a9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learn_io/src/main/java/com/demo/io_jdbc/CreateExcel2Sql_bak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/src/main/java/com/demo/io_jdbc/CreateExcel2Sql.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/src/main/java/com/demo/io_jdbc/CreateExcel2Sql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/src/main/java/com/demo/java_base/Str01.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/src/main/java/com/demo/java_base/Str01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char02/ThreadConstruction.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char02/ThreadConstruction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char02/demo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char02/demo01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char03/FightQueryExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char03/FightQueryExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char03/InterruptThreadExit.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char03/InterruptThreadExit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char05/EventClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char05/EventClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char05/EventQueueVersion2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char05/EventQueueVersion2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char05/EventQueueVersion2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char05/EventQueueVersion2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char05/EventQueueVersion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/cocurrent/wangwenjun/char05/EventQueueVersion2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/CreateExcel2Sql.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/CreateExcel2Sql.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/ExcelToListMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/ExcelToListMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/GenerateDataForUpload$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/GenerateDataForUpload$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/GenerateDataForUpload.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/GenerateDataForUpload.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/InsertMysqlPrac.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/InsertMysqlPrac.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/SpFileWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/SpFileWriterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/rdfFilePrac.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/rdfFilePrac.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/util/RdfFileUtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/util/RdfFileUtilTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/util/StreamUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_jdbc/util/StreamUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_prac1.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/io_prac1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/java_base/CreateSqlByExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/java_base/CreateSqlByExcel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/classes/com/demo/java_base/IOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/classes/com/demo/java_base/IOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_io/target/test-classes/com/demo/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/target/test-classes/com/demo/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_prac/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_prac/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_prac/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_prac/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_prac/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_prac/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_prac/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_prac/src/main/java/com/example/util_prac/UtilPracApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_prac/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_prac/src/test/java/com/example/util_prac/UtilPracApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../skDemo/fund/src/main/java/com/spring/fund/controller/FeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../skDemo/fund/src/main/java/com/spring/fund/controller/FeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_git/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_git/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_uitl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_uitl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn_io/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn_io/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +78,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/myapp/maven-3.6.3" />
         <option name="userSettingsFile" value="D:\eclipse\maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -127,15 +97,20 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -154,7 +129,14 @@
       <recent name="E:\idea\java_base\java_uitl\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateExcel2Sql">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootDemoApp">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="util_skills" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -341,19 +323,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.cocurrent.wangwenjun.char05.EventClient" />
-      <module name="learn_io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.cocurrent.wangwenjun.char05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EventQueueVersion2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.cocurrent.wangwenjun.char05.EventQueueVersion2" />
       <module name="learn_io" />
@@ -423,6 +392,22 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springbootdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.junode.SpringBootDemoApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -510,21 +495,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EventClient" />
       <item itemvalue="Application.EventQueueVersion2" />
       <item itemvalue="Application.CreateSqlByExcel" />
       <item itemvalue="Application.CreateExcel2Sql_bak" />
       <item itemvalue="Application.CreateExcel2Sql" />
       <item itemvalue="Spring Boot.UtilPracApplication" />
+      <item itemvalue="Spring Boot.SpringBootDemoApp" />
       <item itemvalue="Tomcat Server.java_util" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringBootDemoApp" />
         <item itemvalue="Application.CreateExcel2Sql" />
         <item itemvalue="Application.CreateSqlByExcel" />
         <item itemvalue="Application.CreateExcel2Sql_bak" />
         <item itemvalue="Application.EventQueueVersion2" />
-        <item itemvalue="Application.EventClient" />
       </list>
     </recent_temporary>
   </component>
@@ -629,6 +614,8 @@
       <workItem from="1609231149765" duration="69000" />
       <workItem from="1609231311234" duration="185000" />
       <workItem from="1611558434212" duration="163000" />
+      <workItem from="1612709553831" duration="479000" />
+      <workItem from="1612710051809" duration="2995000" />
     </task>
     <servers />
   </component>
@@ -652,6 +639,80 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="208" y="28" key="#Project_Structure" timestamp="1612710129003">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="28" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1612710129003" />
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612713286153">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1612713286153" />
+    <state width="1165" height="275" key="GridCell.Tab.0.bottom" timestamp="1612713919568">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1165" height="275" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612713919568" />
+    <state width="1038" height="275" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1612712925712" />
+    <state width="1165" height="275" key="GridCell.Tab.0.center" timestamp="1612713919567">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1165" height="275" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612713919567" />
+    <state width="1038" height="275" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1612712925711" />
+    <state width="1165" height="275" key="GridCell.Tab.0.left" timestamp="1612713919567">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1165" height="275" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612713919567" />
+    <state width="1038" height="275" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1612712925710" />
+    <state width="1165" height="275" key="GridCell.Tab.0.right" timestamp="1612713919568">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1165" height="275" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612713919568" />
+    <state width="1038" height="275" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1612712925711" />
+    <state width="1165" height="275" key="GridCell.Tab.1.bottom" timestamp="1612713919570">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1165" height="275" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612713919570" />
+    <state width="1038" height="275" key="GridCell.Tab.1.bottom/0.25.1440.813@0.25.1440.813" timestamp="1612712925717" />
+    <state width="1165" height="275" key="GridCell.Tab.1.center" timestamp="1612713919569">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1165" height="275" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1612713919569" />
+    <state width="1038" height="275" key="GridCell.Tab.1.center/0.25.1440.813@0.25.1440.813" timestamp="1612712925715" />
+    <state width="1165" height="275" key="GridCell.Tab.1.left" timestamp="1612713919569">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1165" height="275" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1612713919569" />
+    <state width="1038" height="275" key="GridCell.Tab.1.left/0.25.1440.813@0.25.1440.813" timestamp="1612712925712" />
+    <state width="1165" height="275" key="GridCell.Tab.1.right" timestamp="1612713919569">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1165" height="275" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1612713919569" />
+    <state width="1038" height="275" key="GridCell.Tab.1.right/0.25.1440.813@0.25.1440.813" timestamp="1612712925716" />
+    <state width="1038" height="275" key="GridCell.Tab.2.bottom" timestamp="1612712823352">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1038" height="275" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612712823352" />
+    <state width="1038" height="275" key="GridCell.Tab.2.center" timestamp="1612712823351">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1038" height="275" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1612712823351" />
+    <state width="1038" height="275" key="GridCell.Tab.2.left" timestamp="1612712823351">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1038" height="275" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1612712823351" />
+    <state width="1038" height="275" key="GridCell.Tab.2.right" timestamp="1612712823351">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1038" height="275" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1612712823351" />
+    <state x="229" y="86" key="SettingsEditor" timestamp="1612709637665">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1612709637665" />
+    <state x="219" y="164" key="new project wizard" timestamp="1612709907038">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="219" y="164" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1612709907038" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

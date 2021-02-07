@@ -10,20 +10,23 @@
         <module name="util_prac" />
         <module name="java_git" />
         <module name="learn_io" />
+        <module name="springbootdemo" />
         <module name="java_uitl" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="FinancialReport" target="1.8" />
       <module name="java_base" target="1.8" />
-      <module name="java_git" target="1.8" />
-      <module name="java_uitl" target="1.8" />
+      <module name="java_git" target="1.5" />
+      <module name="java_uitl" target="1.5" />
       <module name="learn_io" target="1.8" />
+      <module name="springbootdemo" target="1.8" />
       <module name="util_skills" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springbootdemo" options="-parameters" />
       <module name="util_prac" options="-parameters" />
     </option>
   </component>
