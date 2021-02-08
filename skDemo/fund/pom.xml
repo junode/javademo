@@ -20,7 +20,6 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
     </dependency>
-<<<<<<< HEAD
 
 <!--    引入feign-->
     <dependency>
@@ -33,8 +32,7 @@
       <artifactId>spring-cloud-starter-hystrix</artifactId>
       <version>1.3.4.RELEASE</version>
     </dependency>
-=======
->>>>>>> ce45c9b3713495949ba406e619e7db16886d0e69
+
     <dependency>
       <groupId>spring.cloud</groupId>
       <artifactId>sk-common</artifactId>

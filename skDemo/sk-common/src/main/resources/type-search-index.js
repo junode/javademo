@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"spring.cloud.learn.annotation","l":"PracDocument"}]

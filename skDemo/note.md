@@ -17,11 +17,9 @@ eureka.instance.hostname 注册服务实例设置名称
 
 ### 1.2.1 关于注解的认识：https://www.javatpoint.com/java-annotation
 
-<<<<<<< HEAD
 &ensp;&ensp;<span style="color:red">www.javatpoint.com 网站对于注解的解释说明简单明了易懂。建议直接看该链接的说明。</span>
-=======
+
 &ensp;&ensp;www.javatpoint.com网站对于注解的解释说明简单明了易懂。建议直接看该链接的说明。
->>>>>>> ce45c9b3713495949ba406e619e7db16886d0e69
 
 注解是表示元数据的标签，可以用于修饰类、接口、方法或字段，为他们添加元数据信息，可以作为他们的额外信息用于java编译和jvm使用。
 
@@ -62,8 +60,7 @@ RentionsPolicy类有三个枚举类型取值：
             so they may be read reflectively.
 简而言之：SOURCE:再编译时注解就被清除；CLASS : 再JVM运行时该注解被清除；RUNTIME ：JVM运行时也存在，相当于一直存货，生命周期与JVM一样吧。
 
-
-<<<<<<< HEAD
+  
 ## 1.2 Feign的认识
 
 ### 1.2.1 Feign入门实例
@@ -86,9 +83,11 @@ RentionsPolicy类有三个枚举类型取值：
   并将他们装配到Ioc容器中。从而可以用Spring的工作环境中使用该接口进行声明式调用了。
   
 
-=======
+# 2 JAVA VALIDATION学习 JSR380
 
+参照：
 
-                
->>>>>>> ce45c9b3713495949ba406e619e7db16886d0e69
++ https://docs.oracle.com/javaee/7/tutorial/bean-validation-advanced001.htm        
++ https://in.relation.to/2017/03/02/adding-custom-constraint-definitions-via-the-java-service-loader/
++ https://www.baeldung.com/javax-validation
 

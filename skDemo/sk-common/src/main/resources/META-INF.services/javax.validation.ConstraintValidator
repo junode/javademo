@@ -1,0 +1,1 @@
+spring.cloud.jsr380.validators.DurationMinValidator
