@@ -1,4 +1,4 @@
-package spring.cloud.learn.annotation.demo;
+package spring.cloud.learn.annotation.demo1;
 
 import org.junit.Test;
 

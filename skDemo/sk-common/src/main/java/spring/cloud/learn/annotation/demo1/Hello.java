@@ -1,4 +1,4 @@
-package spring.cloud.learn.annotation.demo;
+package spring.cloud.learn.annotation.demo1;
 
 /**
  * @description: 用来测试MyAnnotaion注解的使用

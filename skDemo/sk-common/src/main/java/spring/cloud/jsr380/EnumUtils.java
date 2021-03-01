@@ -1,4 +1,4 @@
-package com.kayakwise.wmp.base.enums;
+package spring.cloud.jsr380;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -62,8 +62,8 @@ public class EnumUtils {
 
     // 测试
     public static void main(String[] args) {
-        System.out.println(EnumUtils.valueIn("5",CustType.class));
-        System.out.println(EnumUtils.valueIn("2",CustType.class));
-        System.out.println(EnumUtils.valueIn("2",CustType.PERSON,CustType.PROD));
+        System.out.println(EnumUtils.valueIn("5", AnimalType.class));
+        System.out.println(EnumUtils.valueIn("2", AnimalType.class));
+        System.out.println(EnumUtils.valueIn("2", AnimalType.PERSON, AnimalType.DOG));
     }
 }
