@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @description: 测试访问控制器
+ * 测试访问控制器
  * @author: hitton
  * @create: 2021-02-07 23:41
  **/
@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class TestController {
 
+    /**
+     *
+     * @return
+     */
     @RequestMapping("/info")
     public String getInfo() {
         return String.format("hello %s","junode");
