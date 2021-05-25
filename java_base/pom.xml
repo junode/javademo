@@ -13,7 +13,7 @@
         <module>java_uitl</module>
         <module>java_git</module>
         <module>FinancialReport</module>
-        <module>springbootdemo</module>
+        <module>springboot_demo</module>
     </modules>
 
     <properties>

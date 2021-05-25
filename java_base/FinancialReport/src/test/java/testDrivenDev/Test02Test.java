@@ -2,7 +2,6 @@ package testDrivenDev;
 
 import org.testng.Assert;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class Test02Test {
 
