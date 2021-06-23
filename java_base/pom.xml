@@ -11,7 +11,6 @@
     <modules>
         <module>learn_io</module>
         <module>java_uitl</module>
-        <module>java_git</module>
         <module>FinancialReport</module>
         <module>springboot_demo</module>
     </modules>
