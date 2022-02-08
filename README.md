@@ -1,5 +1,2 @@
 # java demo
-SSM sample
-Please refer to blog http://www.cnblogs.com/toutou for details.
-
-here will be changed!
+design_pattern_test：多态使用demo，接口多实现类使用demo。
