@@ -73,7 +73,7 @@ public class InsertMysqlPrac {
         FileWriter fileWriter = null;
         BufferedWriter bufferedWriter = null;
         try {
-            fileWriter = new FileWriter("D:/kayak/generateData.txt", true); // 只能写默认编码的文本文件, 以追加的方式写文件
+            fileWriter = new FileWriter("D:/demo/generateData.txt", true); // 只能写默认编码的文本文件, 以追加的方式写文件
             bufferedWriter = new BufferedWriter(fileWriter);
 
             bufferedWriter.write("我是字符串");

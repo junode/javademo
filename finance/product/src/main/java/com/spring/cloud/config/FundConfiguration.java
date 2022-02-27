@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package com.spring.cloud.config;
 
 import com.netflix.loadbalancer.BestAvailableRule;
@@ -20,27 +20,4 @@ public class FundConfiguration {
     public IPing ribbonPing() {
         return new PingUrl();
     }
-=======
-package com.spring.cloud.config;
-
-import com.netflix.loadbalancer.BestAvailableRule;
-import com.netflix.loadbalancer.IPing;
-import com.netflix.loadbalancer.IRule;
-import com.netflix.loadbalancer.PingUrl;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-
-@Configuration
-public class FundConfiguration {
-
-    @Bean
-    public IRule rule() {
-        return new BestAvailableRule();
-    }
-
-    @Bean
-    public IPing ribbonPing() {
-        return new PingUrl();
-    }
->>>>>>> ce45c9b3713495949ba406e619e7db16886d0e69
 }

@@ -72,7 +72,7 @@ public class IOprac {
     }
 
     public static void main(String[] args) throws IOException {
-        IOprac reader = new IOprac("D:/kayak/generateData.txt", 65536);
+        IOprac reader = new IOprac("D:/demo/generateData.txt", 65536);
         long start = System.nanoTime();
         while (reader.read() != -1) ;
         long end = System.nanoTime();

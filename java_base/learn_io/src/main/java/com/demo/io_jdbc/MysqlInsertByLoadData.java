@@ -12,7 +12,7 @@ import java.sql.Statement;
  * @version:
  */
 public class MysqlInsertByLoadData {
-    private static String path = "D:/kayak/generateData.txt";
+    private static String path = "D:/demo/generateData.txt";
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         // 1 连接数据库
@@ -24,9 +24,9 @@ public class MysqlInsertByLoadData {
 
         Statement statement = conn.createStatement();
 
-//        String sql = "load data infile 'D:/kayak/generateData.txt' into table user_info fields terminated by" +
+//        String sql = "load data infile 'D:/demo/generateData.txt' into table user_info fields terminated by" +
 ////                "'\\|' enclose by '\\'' lines terminated by '\\r\\n'";
-        String sql = "load data infile 'D:/kayak/generateData.txt' into table user_info fields terminated by" +
+        String sql = "load data infile 'D:/demo/generateData.txt' into table user_info fields terminated by" +
                 "'\\|' lines terminated by '\\r\\n'";
         boolean res = statement.execute(sql);
         System.out.println("load执行结果为：" + res);

@@ -48,7 +48,7 @@ public class GenerateDataForUpload {
         list.add("INT_2");
         sqlData.setColumns(list);
         // 这里以user_info表为示例，生成数据 VARCHAR,DATE,DOUBLE,INT
-        String path = "D:/kayak/generateData.txt";
+        String path = "D:/demo/generateData.txt";
         saveDataToDisk(sqlData, path,false,Arrays.asList());
     }
 
@@ -71,7 +71,7 @@ public class GenerateDataForUpload {
         list.add("INT_7");list.add("INT_1");
         list.add("INT_6");list.add("DATE_0");
         sqlData.setColumns(list);
-        String path = "D:/kayak/genClientLabel.txt";
+        String path = "D:/demo/genClientLabel.txt";
         saveDataToDisk(sqlData, path,false,Arrays.asList());
     }
 
@@ -99,7 +99,7 @@ public class GenerateDataForUpload {
         list.add("DOUBLE_4"); // 金额
 //        list.add("INT_6"); // 核心客户号 cust_no
         sqlData.setColumns(list);
-        String path = "D:/kayak/blackAndWihte.csv";
+        String path = "D:/demo/blackAndWihte.csv";
 
         // 添加常量值
         boolean isConstant = true;

@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 server:
   port: 2001
 
-=======
-server:
-  port: 2001
 
->>>>>>> ce45c9b3713495949ba406e619e7db16886d0e69

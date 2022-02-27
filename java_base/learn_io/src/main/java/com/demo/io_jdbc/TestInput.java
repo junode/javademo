@@ -19,7 +19,7 @@ import java.util.List;
 public class TestInput {
 
     public static void main(String[] args) {
-        String path = "D:/kayak/generateData.txt";
+        String path = "D:/demo/generateData.txt";
         String sql = "INSERT INTO `demo`.`user_info`(`name`, `age`) VALUES ( ?,?)";
         test(path, sql);
     }

@@ -12,7 +12,7 @@
   </parent>
 
   <groupId>spring.cloud</groupId>
-  <artifactId>sk-demo</artifactId>
+  <artifactId>sc-demo</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <modules>
@@ -23,7 +23,7 @@
       <module>sk-common</module>
   </modules>
 
-  <name>sk-demo</name>
+  <name>sc-demo</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

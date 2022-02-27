@@ -26,7 +26,7 @@ public class CreateExcel2Sql {
 	//使用表空间
 	private static String TABLE_SPACE = "";
 	//excel文件路径
-	private static String FILE_PATH = "D:\\kayak\\crtSql\\";
+	private static String FILE_PATH = "D:\\demo\\crtSql\\";
 	
 //	private static String FILE_NAME = "支付中心库.xlsx";
 //	private static String SYSTEMID = "ZF";
