@@ -6,7 +6,7 @@
 
   <parent>
     <groupId>spring.cloud</groupId>
-    <artifactId>sk-demo</artifactId>
+    <artifactId>sc-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
 

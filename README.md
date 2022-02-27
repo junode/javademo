@@ -1,2 +1,1 @@
-# java demo
-design_pattern_test：多态使用demo，接口多实现类使用demo。
+个人学习demo，笔记若有，也是在本地typora。。。
