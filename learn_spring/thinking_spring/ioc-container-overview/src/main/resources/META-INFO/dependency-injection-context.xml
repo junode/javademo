@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+<!--    复用 META-INFO/dependency-lookup-context.xml 内容-->
+    <import resource="dependency-lookup-context.xml"/>
+
+
+    <bean id="userRepository" class="org.example.ioc.repository.UserRepository"
+        autowire="byType">
+<!--        硬编码，手动配置 -->
+        <!--<property name="users">
+            <util:list>
+                <ref bean="user" />
+                <ref bean="superUser" />
+            </util:list>
+        </property>-->
+<!--        auto-wiring 自动绑定-->
+    </bean>
+
+    <!--    除了用@Configuration注解添加配置信息，也可以通过XML方式配置依赖注入-->
+    <bean id="item2" class="org.example.ioc.dependency.injection.ItemImpl"/>
+    <bean id="store2" class="org.example.ioc.domain.Store">
+        <constructor-arg index="0" name="itemDemo" ref="item2"/>
+        <constructor-arg index="1" name="name" value="junode"/>
+    </bean>
+</beans>
