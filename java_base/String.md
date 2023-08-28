@@ -10,7 +10,7 @@ String对象是Java中使用最频繁的对象之一，所以Java开发者们也
 
 在Java6以及之前版本中，String对象是对char数组进行了封装实现的对象，其主要有4个成员成员变量，分别是char数组、偏移量offset、字符数量count和哈希值hash。String对象是通过offset和count两个属性来定位char[]数组，获取字符串。
 
-注意：String对象内部使用了**一个字符数组（char[]）**来存储实际的字符串内容。
+注意：String对象内部使用了**一个字符数组（char[]）** 来存储实际的字符串内容。
 
 > "offset"：表示字符数组中的起始位置，即从哪个索引开始表示这个String对象的内容。
 > 
@@ -210,7 +210,7 @@ String str2 = new String("2") + new String("3");
   - 在 Java 中，字符串字面量在编译时就会创建，而不是在运行时。这意味着在代码编译时，字符串字面量 "2" 和 "3" 就已经被创建并存储在常量池中。 
 - new String("2") 和 new String("3") 分别会在堆内存中创建两个新的字符串对象。这两个对象与常量池中的 "2" 和 "3" 字符串内容相同，但它们是不同的对象。
 - new StringBuilder()
-- 字符串连接操作符 + 会将两个字符串连接起来，形成一个新的字符串 "23"，并在堆内存中创建一个新的字符串对象。
+- StringBuilder()的toString()方法返回 "23"，并在堆内存中创建一个新的字符串对象。
   ![binaryFree](./src/main/resources/images/string/String_append_20230828234357.png)
 
 
