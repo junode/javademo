@@ -1,9 +1,0 @@
-# Compiled class file
-*.class
-.build
-.idea
-build
-gradle
-gradlew
-gradlew.bat
-
