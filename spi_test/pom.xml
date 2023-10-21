@@ -15,7 +15,7 @@
     <module>SpiPrac</module>
   </modules>
 
-  <name>SpiTest</name>
+  <name>spi_test</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
