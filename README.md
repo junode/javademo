@@ -15,3 +15,16 @@
   - 看透springMvc源代码分析与实践.pdf
   - 跟开涛学SpringMVC.pdf
   - 重构_改善既有代码的设计[高清版].pdf
+
+## Java基础
+  - JSR(java specification request)： https://openjdk.org/projects/jdk8/spec/
+  - JCP(java community process): https://jcp.org/en/jsr/detail?id=337
+  - JLS(java language specification)
+  - JAVA8 官网笔记教程： https://zq99299.github.io/java-tutorial/
+
+## 程序员网站
+  - https://medium.com/。付费的。
+  - https://www.baeldung.com/
+
+## google guava
+  - 笔记和示例见模块，学习来源来自bili
