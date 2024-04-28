@@ -10,7 +10,6 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>thinking_spring</module>
-    <module>person_prac</module>
   </modules>
 
   <name>learn_spring</name>

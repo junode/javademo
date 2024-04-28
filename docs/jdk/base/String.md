@@ -1,5 +1,5 @@
 # 深入理解String
-![binaryFree](./src/main/resources/images/string/String_20230828234357.png)
+![binaryFree](../../../images/jdk/base/string/String_20230828234357.png)
 
 
 ## 1 String的演进
@@ -38,13 +38,13 @@ String对象是Java中使用最频繁的对象之一，所以Java开发者们也
 String s1 = "古时的风筝";
 ```
  通过字符串常量形式创建字符串时， JVM 会在字符串常量池中先检查是否存在该对象，如果存在，返回该对象的引用地址，如果不存在，则在字符串常量池中创建该字符串对象并且返回引用。使用这种方式创建的好处是：避免了相同值的字符串重复创建，节约了内存。
-![binaryFree](./src/main/resources/images/string/273364-20200426222620840-1395338814.png)
+![binaryFree](../../../images/jdk/base/string/273364-20200426222620840-1395338814.png)
 当再次声明相同的字面量时，他们指向同一个常量池变量。
 ```java
 String s1 = "古时的风筝";
 String s2 = "古时的风筝";
 ```
- ![binaryFree](./src/main/resources/images/string/273364-20200426222630569-1857704149.png)
+ ![binaryFree](../../../images/jdk/base/string/273364-20200426222630569-1857704149.png)
 
 
 > 常量池是JVM为了减少字符串对象的重复创建，特别维护了一个特殊的内存，这段内存被称为字符串常量池或者字符串字面量池。
@@ -56,7 +56,7 @@ String s2 = "古时的风筝";
 > 总结就是，目前的字符串常量池在堆中。 
 > 
 > 我们所知道的几个String对象的特点都来源于String常量池。
->   1 在常量池中会共享所有的String对象，因此String对象是不可被修改的，因为一旦被修改，就会导致所有引用此String对象的变量都随之改变（引用改变），所以String对象是被设计为不可修改的，后面会对这个不可变的特性做一个深入的了解。
+>   1 在常量池中会共享所有的String对象，因此String对象是不可被修改的，因为一旦被修改，就会导致所有引用此String对象的变量都随之改变（引用改变），所以String对象是被设计为不可修改的。
 >   
 >   2 String对象拼接字符串的性能较差的说法也是来源于此，因为String对象不可变的特性，每次修改（这里是拼接）都是返回一个新的字符串对象，而不是再原有的字符串对象上做修改，因此创建新的String对象会消耗较多的性能（开辟另外的内存空间）。 
 >   
@@ -103,7 +103,7 @@ Java 公司为什么要将String设置成不可变的，主要从以下三方面
 ```java
 String str8 = "ping" +"tou"+"ge";
 ```
-这段代码会产生多少个对象？如果按照我们理解的意思来分析的话，首先会创建ping对象，然后创建pingtou对象，最后才会创建pingtouge对象，一共创建了三个对象。真的是这样吗？其实不是这样的，Java 公司怕我们程序员手误，所以对编译器进行了优化，上面的这段字符串拼接会被我们的编译器优化，优化成一个String str8 = "pingtouge";对象。除了对常量字符串拼接做了优化以外，对于使用+号动态拼接字符串，编译器也做了相应的优化，以便提升String的性能，例如下面这段代码：
+这段代码会产生多少个对象？Java 公司怕我们程序员手误，所以对编译器进行了优化，上面的这段字符串拼接会被我们的编译器优化，优化成一个String str8 = "pingtouge";对象。除了对常量字符串拼接做了优化以外，对于使用+号动态拼接字符串，编译器也做了相应的优化，以便提升String的性能，例如下面这段代码：
 ```java
 String str = "pingtouge";
 
@@ -141,18 +141,17 @@ for(int i=0; i<1000; i++) {
 
 ```java
 public static void main(String[] args) {
-    String str = new String("pingtouge");
-    String str1 = new String("pingtouge");
-    System.out.println("未使用intern()方法："+(str==str1));
-    System.out.println("未使用intern()方法,str："+str);
-    System.out.println("未使用intern()方法,str1："+str1);
+        String str = new String("pingtouge");
+        String str1 = new String("pingtouge");
+        System.out.println("未使用intern()方法：" + (str == str1)); // false
+        System.out.println("str 的内存地址为：" + Integer.toHexString(System.identityHashCode(str))); // 2957fcb0
+        System.out.println("str1 的内存地址为：" + Integer.toHexString(System.identityHashCode(str1)));    // 1376c05c
 
-    String str2= new String("pingtouge").intern();
-    String str3 = new String("pingtouge").intern();
-    System.out.println("使用intern()方法："+(str2==str3));
-    System.out.println("使用intern()方法,str2："+str2);
-    System.out.println("使用intern()方法,str3："+str3);
-
+        String str2 = new String("pingtouge").intern();
+        String str3 = new String("pingtouge").intern();
+        System.out.println("使用intern()方法：" + (str2 == str3)); // true
+        System.out.println("str2 的内存地址为：" + Integer.toHexString(System.identityHashCode(str2)));    // 51521cc1
+        System.out.println("str3 的内存地址为：" + Integer.toHexString(System.identityHashCode(str3)));    // 51521cc1
 }
 ```
 从结果中可以看出，未使用String.intern()方法时，构造相同值的字符串对象返回不同的对象引用地址，使用String.intern()方法后，构造相同值的字符串对象时，返回相同的对象引用地址。这能帮我们节约不少空间
@@ -211,7 +210,7 @@ String str2 = new String("2") + new String("3");
 - new String("2") 和 new String("3") 分别会在堆内存中创建两个新的字符串对象。这两个对象与常量池中的 "2" 和 "3" 字符串内容相同，但它们是不同的对象。
 - new StringBuilder()
 - StringBuilder()的toString()方法返回 "23"，并在堆内存中创建一个新的字符串对象。
-  ![binaryFree](./src/main/resources/images/string/String_append_20230828234357.png)
+  ![binaryFree](../../../images/jdk/base/string/String_append_20230828234357.png)
 
 
 ## 文章参考

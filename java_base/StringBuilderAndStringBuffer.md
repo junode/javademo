@@ -1,6 +1,6 @@
 # StringBuilder和StringBuffer的理解。
 
-![img.png](src/main/resources/images/stringbuilder/stringbuilder.png)
+![img.png](../images/jdk/base/stringbuilder/stringbuilder.png)
 
 
 String、StringBuilder 和 StringBuffer 都是在Java中用来处理字符串的类，但它们在性能和用途上有一些区别。

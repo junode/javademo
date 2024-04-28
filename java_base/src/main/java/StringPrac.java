@@ -1,9 +1,27 @@
+import org.junit.Test;
+
 /**
  * String示例
- *
+ * <p>
  * javap -c -verbose StringPrac.class
  */
 public class StringPrac {
+
+
+    @Test
+    public void testCreateStr() {
+        String str = new String("pingtouge");
+        String str1 = new String("pingtouge");
+        System.out.println("未使用intern()方法：" + (str == str1)); // false
+        System.out.println("str 的内存地址为：" + Integer.toHexString(System.identityHashCode(str)));
+        System.out.println("str1 的内存地址为：" + Integer.toHexString(System.identityHashCode(str1)));
+
+        String str2 = new String("pingtouge").intern();
+        String str3 = new String("pingtouge").intern();
+        System.out.println("使用intern()方法：" + (str2 == str3)); // true
+        System.out.println("str2 的内存地址为：" + Integer.toHexString(System.identityHashCode(str2)));
+        System.out.println("str3 的内存地址为：" + Integer.toHexString(System.identityHashCode(str3)));
+    }
 
     public static void main(String[] args) {
         String heapStr = new String("heapStr");
@@ -19,16 +37,16 @@ public class StringPrac {
         System.out.println(heapStr == constantStr);
         System.out.println(stringLiteral == heapStr);
         System.out.println(stringLiteral == constantStr);
-        System.out.println(String.class.getName()+"@"+Integer.toHexString(System.identityHashCode(heapStr)));
-        System.out.println(String.class.getName()+"@"+Integer.toHexString(System.identityHashCode(heapStr2)));
-        System.out.println(String.class.getName()+"@"+Integer.toHexString(System.identityHashCode(constantStr)));
-        System.out.println(String.class.getName()+"@"+Integer.toHexString(System.identityHashCode(stringLiteral)));
+        System.out.println(String.class.getName() + "@" + Integer.toHexString(System.identityHashCode(heapStr)));
+        System.out.println(String.class.getName() + "@" + Integer.toHexString(System.identityHashCode(heapStr2)));
+        System.out.println(String.class.getName() + "@" + Integer.toHexString(System.identityHashCode(constantStr)));
+        System.out.println(String.class.getName() + "@" + Integer.toHexString(System.identityHashCode(stringLiteral)));
 
 
 //        System.out.println(" =========test1 start======= ");
         String a = "abc";
         String b = "def";
-        String c = a+b;
+        String c = a + b;
         String d = "abcdef";
         System.out.println(c == d);
         System.out.println(c.equals(d));
