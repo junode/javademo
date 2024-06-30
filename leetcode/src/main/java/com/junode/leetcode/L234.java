@@ -41,7 +41,7 @@ public class L234 {
     }
 
     @Test
-    public void doublePoint(){
+    public void doublePointer(){
         List<Integer> result = new ArrayList<>();
 
         // 从链表中复制到数组中

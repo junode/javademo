@@ -53,7 +53,7 @@ public class L876 {
     }
 
     @Test
-    public void doublePoint() {
+    public void doublePointer() {
         ListNode head = build();
         ListNode slow = head, fast = head;
         while(fast != null && fast.next != null){

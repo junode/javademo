@@ -59,7 +59,7 @@ public class L142 {
 
     // 双指针
     @Test
-    public void doublePoint() {
+    public void doublePointer() {
         ListNode head = build();
         if(head == null) {
             return;
